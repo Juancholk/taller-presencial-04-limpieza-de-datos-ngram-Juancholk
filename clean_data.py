@@ -71,6 +71,7 @@ def save_data(df, output_file):
     df.to_csv(output_file, index=False)
 
 
+
 def main(input_file, output_file, n=2):
     """Ejecuta la limpieza de datos"""
     #
